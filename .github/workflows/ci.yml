@@ -19,4 +19,4 @@ jobs:
       - name: Levantar entorno con Docker Compose
         run: docker compose up -d --build
       - name: Ejecutar pruebas con Pytest
-        run: docker compose exec -T api test -v
+        run: docker compose exec -T api test -
